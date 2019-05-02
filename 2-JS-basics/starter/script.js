@@ -161,6 +161,7 @@ if (age < 13) {
  *The Ternary Operator and Switch Statements
  */
 //Ternary Operator
+    /*
 var firstName = 'John';
 var age = 22;
 
@@ -185,7 +186,25 @@ switch (job) {
     default:
         console.log(firstName + ' does something else.');
 }
+     */
 
+/*******************************
+ *Truthy and Falsy Values and Equality Operators
+ */
+
+var height;
+
+height = 23;
+
+if (height || height === 0) {
+    console.log('Variable is defined');
+} else {
+    console.log('Variable has NOT been defined');
+}
+
+if (height === '23') {
+    console.log('the == operator does type coercion!');
+}
 
 
 
