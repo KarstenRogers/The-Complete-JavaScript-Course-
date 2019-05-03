@@ -261,7 +261,7 @@ console.log(whatDoYouDo('driver', 'Mark'));
 /*******************************
  *Arrays
  */
-
+/*
 //Initialize new array
 var names = ['John', 'Mark', 'Jane'];
 var years = new Array(1990, 1969, 1948);
@@ -291,10 +291,34 @@ console.log(john.indexOf(23));
 var isDesigner = john.indexOf('designer') === -1 ?
     'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
+ */
 
+/*******************************
+ *Objects and Properties
+ */
 
+var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: false
+};
+console.log(john.firstName);
+console.log(john['lastName']);
+var x = 'birthYear';
+console.log(john[x]);
 
+john.job = 'designer';
+john['isMarried'] = true;
+console.log(john);
 
+var jane = new Object();
+jane.firstName = 'Jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'Smith';
+console.log(jane);
 
 
 
