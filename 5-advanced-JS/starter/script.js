@@ -55,7 +55,7 @@ var jane = Object.create(personProto,
 
 /////////////////////////////
 // Lecture: Primitives vs objects
-
+/*
 var a = 23;
 var b = a;
 a = 46;
@@ -128,10 +128,11 @@ var rates = arrayCalc(ages, maxHeartRate);
 console.log(ages);
 console.log(rates);
  */
+ 
 
 /////////////////////////////
 // Lecture: Functions returning functions
-
+/*
 function interviewQuestion(job) {
     if (job === 'designer') {
         return function(name) {
@@ -159,4 +160,29 @@ designerQuestion('Mark');
 designerQuestion('Mike');
 
 interviewQuestion('teacher')('Mark');
+ */
+
+/////////////////////////////
+// Lecture: IIFE
+
+function game() {
+    var score = Math.random() * 10;
+    console.log(score >= 5);
+}
+game();
+
+
+(function () {
+    var score = Math.random() * 10;
+    console.log(score >= 5);
+})();
+
+//console.log(score);
+
+
+(function (goodLuck) {
+    var score = Math.random() * 10;
+    console.log(score >= 5 - goodLuck);
+})(5);
+
 
