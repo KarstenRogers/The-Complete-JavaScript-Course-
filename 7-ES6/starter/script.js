@@ -49,8 +49,28 @@ driversLicence6(true);
 
 //////////////////////////////////////////////////
 // Blocks and IIFEs
+/*
 {
     const a = 1;
     let b = 2;
     var c = 3;
 }
+ */
+
+
+//////////////////////////////////////////////////
+// Strings
+let firstName = 'John';
+let lastName = 'Smith';
+const yearOfBirth = 1998;
+
+function calcAge(year) {
+    return 2019 - year;
+}
+
+console.log(`This is ${firstName} ${lastName}. He was born in
+${yearOfBirth}. Today he is ${calcAge(yearOfBirth)} years old.`);
+
+const n = `${firstName} ${lastName}`;
+console.log(n.startsWith('j'));
+console.log(n.endsWith('sm'));
