@@ -452,6 +452,7 @@ Person6.greeting();
 
 
 //ES5
+/*
 var Person5 = function(name, yearOfBirth, job) {
     this.name = name;
     this.yearOfBirth = yearOfBirth;
@@ -515,4 +516,131 @@ const johnAthlete6 = new Athlete6('John', 1990, 'swimmer', 3, 10);
 
 johnAthlete6.wonMedal();
 johnAthlete6.calculateAge();
+ */
+
+
+
+/////////////////////////////////
+// CODING CHALLENGE
+
+/*
+
+Suppose that you're working in a small town administration, and you're in charge of two town elements:
+1. Parks
+2. Streets
+
+It's a very small town, so right now there are only 3 parks and 4 streets. All parks and streets have a name and a build year.
+
+At an end-of-year meeting, your boss wants a final report with the following:
+1. Tree density of each park in the town (forumla: number of trees/park area)
+2. Average age of each town's park (forumla: sum of all ages/number of parks)
+3. The name of the park that has more than 1000 trees
+4. Total and average length of the town's streets
+5. Size classification of all streets: tiny/small/normal/big/huge. If the size is unknown, the default is normal
+
+All the report data should be printed to the console.
+
+HINT: Use some of the ES6 features: classes, subclasses, template strings, default parameters, maps, arrow functions, destructuring, etc.
+
+*/
+
+// One Town Element
+// PARKS
+class Parks {
+    constructor(name, year, trees, area,) {
+        this.name = name;
+        this.year = year;
+        this.trees = trees;
+        this.area = area;
+    }
+
+    //Tree density of each park in the town
+    treeDensity() {
+        let density = this.trees / this.area;
+        console.log(this.name + " has a tree desinty of " + density + " trees per square km.");
+    }
+
+    //3.
+    bigPark() {
+        if(this.trees > 1000) {
+            console.log(this.name + " has more than 100 trees.");
+        }
+    }
+}
+
+// Setting the 3 Parks
+const park1 = new Parks("Park1", 1950, 500, 10);
+const park2 = new Parks("Park2", 1930, 700, 20);
+const park3 = new Parks("Park3", 1900, 1200, 40);
+
+//Average age of each town's park
+function calcAge(el1, el2, el3) {
+    a = new Date().getFullYear() - el1.year;
+    b = new Date().getFullYear() - el2.year;
+    c = new Date().getFullYear() - el3.year;
+    var avr = Math.floor((a + b + c) / 3);
+    console.log("Our 3 parks have an average age of " + avr + " years.");
+}
+
+const p = "-----PARKS REPORT-----"
+console.log(p);
+calcAge(park1, park2, park3);
+park1.treeDensity();
+park2.treeDensity();
+park3.treeDensity();
+park3.bigPark();
+
+
+// One Town Element
+// STREETS
+class Streets {
+    constructor(name, year, length) {
+        this.name = name;
+        this.year = year;
+        this.length = length
+    }
+}
+
+// Setting the 4 Streets
+const street1 = new Streets("Street1", 1970, 5);
+const street2 = new Streets("Street2", 1950, 10);
+const street3 = new Streets("Street3", 1930, 20);
+const street4 = new Streets("Street4", 1910, 40);
+
+
+//Total and average length of the town's streets
+function total() {
+    var average = (street1.length + street2.length + street3.length + street4.length) / 4;
+    var total = street1.length + street2.length + street3.length + street4.length;
+    console.log("Our 4 streets have a total lenght of " + total + " km, with an average of " + average + " km.");
+}
+
+//Total length of the town's streets
+function totalStr() {
+    var totalStr = street1.length + street2.length + street3.length + street4.length;
+    console.log(totalStr);
+}
+
+//Street Size
+function size(el) {
+    if (el.length < 6) {
+        console.log(el.name + " is a tiny street.")
+    } else if(el.length < 11) {
+        console.log(el.name + " is a small street.")
+    } else if(el.length < 21) {
+        console.log(el.name + " is a normal street.")
+    } else if(el.length < 41) {
+        console.log(el.name + " is a big street.")
+    } else {
+        console.log(el.name + " is a normal street.")
+    }
+}
+
+const s = "-----STREETS REPORT-----"
+console.log(s);
+total();
+size(street1);
+size(street2);
+size(street3);
+size(street4);
 
