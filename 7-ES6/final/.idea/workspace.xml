@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b21865-7273-494c-bf1f-5be603d315d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter/script.js" afterDir="false" />
     </list>
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="634" column="2" lean-forward="true" selection-start-line="612" selection-end-line="634" selection-end-column="2" />
+            <state relative-caret-position="703">
+              <caret line="729" column="26" selection-start-line="637" selection-end-line="729" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -31,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="72" />
     <option name="y" value="23" />
     <option name="width" value="911" />
@@ -88,15 +87,15 @@
       <updated>1557263748600</updated>
       <workItem from="1557263749872" duration="18000" />
       <workItem from="1557264423057" duration="3000" />
-      <workItem from="1557320969625" duration="2011000" />
+      <workItem from="1557320969625" duration="2348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2032000" />
+    <option name="totallyTimeSpent" value="2369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="23" width="911" height="1057" extended-state="0" />
+    <frame x="72" y="23" width="911" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2612198" />
@@ -126,8 +125,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="634" column="2" lean-forward="true" selection-start-line="612" selection-end-line="634" selection-end-column="2" />
+        <state relative-caret-position="703">
+          <caret line="729" column="26" selection-start-line="637" selection-end-line="729" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
