@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2955002-8108-498b-b160-098e9598551e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../starter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter/asynchronous.html" beforeDir="false" afterPath="$PROJECT_DIR$/../starter/asynchronous.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asynchronous.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="131" column="11" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="131" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="131" column="11" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="131" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -97,16 +96,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557348535247</updated>
-      <workItem from="1557348536651" duration="1287000" />
+      <workItem from="1557348536651" duration="1424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1287000" />
+    <option name="totallyTimeSpent" value="1424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="911" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24971232" />
@@ -135,8 +133,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asynchronous.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="131" column="11" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="131" selection-end-column="11" />
+        <state relative-caret-position="525">
+          <caret line="131" column="11" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="131" selection-end-column="11" />
         </state>
       </provider>
     </entry>
