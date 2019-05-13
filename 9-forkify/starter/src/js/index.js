@@ -27,7 +27,7 @@ const controlSearch = async () => {
             clearLoader();
             searchView.renderResults(state.search.result);
         } catch (err) {
-            alert('Spmething went wrong');
+            alert('Something went wrong');
             clearLoader();
         }
     }
@@ -59,6 +59,8 @@ const controlRecipe = async () => {
 
         try {
             await state.recipe.getRecipe();
+            console.log(state.recipe.ingredients);
+            state.recipe.parseIngredients();
 
             state.recipe.calcTime();
             state.recipe.calcServings();
