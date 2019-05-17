@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95825934-0c3a-4387-bc25-12b992323d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../starter-2/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/models/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/.bin/babylon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/bin/babylon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/bin/generate-identifier-regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/node_modules/babylon/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/babel-core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/.bin/jsesc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/jsesc/LICENSE-MIT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/jsesc/bin/jsesc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/jsesc/jsesc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/jsesc/man/jsesc.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-generator/node_modules/jsesc/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/babel-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-polyfill/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/babel-polyfill/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-preset-env/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/babel-preset-env/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/.bin/babylon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/bin/babylon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/bin/generate-identifier-regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-template/node_modules/babylon/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/.bin/babylon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/bin/babylon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/bin/generate-identifier-regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/babel-traverse/node_modules/babylon/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/LICENSE-MIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/LICENSE-MIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/bin/jsesc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/jsesc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/jsesc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/man/jsesc.1" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/man/jsesc.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/node_modules/jsesc/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/js/" />
@@ -180,6 +142,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="116" y="23" width="1658" height="1028" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.018564356" />
