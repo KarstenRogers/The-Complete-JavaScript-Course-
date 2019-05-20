@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95825934-0c3a-4387-bc25-12b992323d8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/models/Recipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/models/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/models/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/js/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
