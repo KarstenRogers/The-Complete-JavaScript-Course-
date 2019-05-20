@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95825934-0c3a-4387-bc25-12b992323d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/models/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/models/Recipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/js/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/models/Likes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="798">
               <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="24" selection-end-line="35" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +112,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -137,19 +180,19 @@
       <updated>1557431310925</updated>
       <workItem from="1557431312214" duration="39044000" />
       <workItem from="1558035699141" duration="1184000" />
-      <workItem from="1558361337347" duration="598000" />
+      <workItem from="1558361337347" duration="1528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40826000" />
+    <option name="totallyTimeSpent" value="41756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="116" y="23" width="1658" height="1028" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.018564356" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18440594" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -233,16 +276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/models/Recipe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -312,6 +345,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="24" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

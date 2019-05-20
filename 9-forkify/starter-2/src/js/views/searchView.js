@@ -28,7 +28,7 @@ const limitRecipeTitle = (title, limit = 17) => {
 };
 
 // setting up the recipe for the UI with markup from HTML and
-// Changing the default vaules to responsive ones
+// Changing the default values to responsive ones
 const renderRecipe = recipe => {
     const markup = `
         <li>
@@ -79,7 +79,7 @@ const renderButtons = (page, numResults, resPerPage) => {
     elements.searchResPages.insertAdjacentHTML('afterbegin', button);
 };
 
-// render the results and set to 10 per page 
+// render the results and set to 10 per page
 export const renderResults = (recipes, page = 1, resPerPage = 10) => {
     // render results of current page
     const start = (page - 1) * resPerPage;
