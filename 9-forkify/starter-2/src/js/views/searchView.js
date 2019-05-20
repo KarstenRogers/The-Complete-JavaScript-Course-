@@ -11,6 +11,7 @@ export const clearResults = () => {
   elements.searchResPages.innerHTML = '';
 };
 
+// Setting the Max recipe title shown
 const limitRecipeTitle = (title, limit = 17) => {
     const newTitle = [];
     if (title.length > limit) {
@@ -26,6 +27,8 @@ const limitRecipeTitle = (title, limit = 17) => {
     return title;
 };
 
+// setting up the recipe for the UI with markup from HTML and
+// Changing the default vaules to responsive ones
 const renderRecipe = recipe => {
     const markup = `
         <li>
@@ -43,6 +46,7 @@ const renderRecipe = recipe => {
     elements.searchResList.insertAdjacentHTML('beforeend', markup);
 };
 
+// Creating the next and prev button with markup from HTML
 const createButton = (page, type) => `
   <button class="btn-inline results__btn--${type}" data-goto=${type === 'prev' ? page - 1 : page + 1}>
   <span>Page ${type === 'prev' ? page - 1 : page + 1}</span>
@@ -52,6 +56,8 @@ const createButton = (page, type) => `
   </button>
 `;
 
+
+// Function Tells what buttons to put on each page
 const renderButtons = (page, numResults, resPerPage) => {
     const pages = Math.ceil(numResults / resPerPage);
 
@@ -73,6 +79,7 @@ const renderButtons = (page, numResults, resPerPage) => {
     elements.searchResPages.insertAdjacentHTML('afterbegin', button);
 };
 
+// render the results and set to 10 per page 
 export const renderResults = (recipes, page = 1, resPerPage = 10) => {
     // render results of current page
     const start = (page - 1) * resPerPage;

@@ -7,6 +7,7 @@ export default class Recipe {
     }
 
     async getRecipe() {
+        // Try does this--> test a block of code for errors
         try {
             const res = await axios(`https://www.food2fork.com/api/get?key=${key}&rId=${this.id}`);
             this.title = res.data.recipe.title;
@@ -15,21 +16,25 @@ export default class Recipe {
             this.url = res.data.recipe.source_url;
             this.ingredients = res.data.recipe.ingredients;
         } catch (error) {
-            console.log(error)
+            // The catch statement lets you handle the error
+            console.log(error);
             alert('Something Went Wrong :(');
         }
     }
 
+    // Calculation of the ingredients length to find the amount of time
     calcTime() {
         const numIng = this.ingredients.length;
         const periods = Math.ceil(numIng / 3);
         this.time = periods * 15;
     }
 
+    // Setting the servings for each recipe
     calcServings() {
         this.servings = 4;
     }
 
+    // Setting the Ingredients and simplifying the units to short
     parseIngredients() {
         const unitsLong = ['tablespoons', 'tablespoon', 'ounces', 'ounce', 'teaspoons', 'teaspoon', 'cups', 'pounds'];
         const unitsShort = ['tbsp', 'tbsp', 'oz', 'oz', 'tsp', 'tsp', 'cup', 'pound'];
@@ -49,6 +54,8 @@ export default class Recipe {
             const unitIndex = arrIng.findIndex(el2 => unitsShort.includes(el2));
 
             let objIng;
+
+            // Seeing if there is any units
             if (unitIndex > -1) {
                 // There is a Unit
                 const arrCount = arrIng.slice(0, unitIndex);

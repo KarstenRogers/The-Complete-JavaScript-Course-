@@ -1,6 +1,7 @@
 import Search from './models/Search';
 import Recipe from './models/Recipe';
 import * as searchView from './views/searchView';
+import * as recipeView from './views/recipeView';
 import { elements, renderLoader, clearLoader } from "./views/base";
 
 /** Global State of the App
@@ -11,6 +12,10 @@ import { elements, renderLoader, clearLoader } from "./views/base";
  */
 const state = {};
 
+
+/**
+ * Search Controller
+ */
 const controlSearch = async () => {
     // 1. Get query from view
     const query = searchView.getInput();
@@ -24,6 +29,7 @@ const controlSearch = async () => {
         searchView.clearResults();
         renderLoader(elements.searchRes);
 
+        // Try does this--> test a block of code for errors
         try {
             // 4. Search for recipes
             await state.search.getResults();
@@ -32,19 +38,24 @@ const controlSearch = async () => {
             clearLoader();
             searchView.renderResults(state.search.result);
         } catch (err) {
+            // The catch statement lets you handle the error
             alert('Something Went wrong');
             clearLoader();
         }
     }
 };
 
+// This Handles when the person hits the search button
 elements.searchForm.addEventListener('submit', e => {
     e.preventDefault();
     controlSearch();
 });
 
+// Adding Click Event to the btn-inline target with closest
 elements.searchResPages.addEventListener('click', e => {
    const btn = e.target.closest('.btn-inline');
+
+   // If statement on next and prev button pages
    if (btn) {
        const goToPage = parseInt(btn.dataset.goto, 10);
        searchView.clearResults();
@@ -85,5 +96,7 @@ const controlRecipe = async () => {
 
 // window.addEventListener('hashchange', controlRecipe);
 // // window.addEventListener('load', controlRecipe);
+
+// Same as the two above just put them in an array and do for each function
 
 ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));
