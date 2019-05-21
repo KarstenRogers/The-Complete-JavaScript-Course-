@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95825934-0c3a-4387-bc25-12b992323d8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/models/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/models/Recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/searchView.js" afterDir="false" />
     </list>
@@ -180,12 +175,12 @@
       <updated>1557431310925</updated>
       <workItem from="1557431312214" duration="39044000" />
       <workItem from="1558035699141" duration="1184000" />
-      <workItem from="1558361337347" duration="1528000" />
+      <workItem from="1558361337347" duration="1672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41756000" />
+    <option name="totallyTimeSpent" value="41900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="116" y="23" width="1658" height="1028" extended-state="1" />

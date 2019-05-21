@@ -8,6 +8,16 @@ export const clearRecipe = () => {
 const formalCount = count => {
     if (count) {
         const [int, dec] = count.toString().split('.').map(el => parseInt(el, 10));
+
+        if (!dec) return count;
+
+        if (int === 0) {
+            const fr = new Fraction(count);
+            return `${fr.numerator}/${fr.denominator}`;
+        } else {
+            const fr = new Fraction(count - int);
+            return `${int} ${fr.numerator}/${fr.denominator}`;
+        }
     }
     return '?';
 };
