@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95825934-0c3a-4387-bc25-12b992323d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../starter-2/src/js/views/listView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/listView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/listView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-2/src/js/views/recipeView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/js/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5487">
-              <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
+            <state relative-caret-position="1254">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -51,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
@@ -95,7 +96,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="116" />
     <option name="y" value="23" />
     <option name="width" value="1658" />
@@ -175,15 +176,15 @@
       <updated>1557431310925</updated>
       <workItem from="1557431312214" duration="39044000" />
       <workItem from="1558035699141" duration="1184000" />
-      <workItem from="1558361337347" duration="1672000" />
+      <workItem from="1558361337347" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41900000" />
+    <option name="totallyTimeSpent" value="42297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="23" width="1658" height="1028" extended-state="1" />
+    <frame x="116" y="23" width="1658" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -319,16 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5487">
-          <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -349,6 +340,16 @@
           <caret line="35" column="2" lean-forward="true" selection-start-line="24" selection-end-line="35" selection-end-column="2" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
